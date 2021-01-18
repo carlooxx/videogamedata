@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { loadGames } from "./actions";
 import Home from "./pages/home";
+import GlobalStyle from "./components/GlobalStyle";
 
 function App() {
   return (
     <div className="App">
+      <GlobalStyle />
       <Home />
     </div>
   );
